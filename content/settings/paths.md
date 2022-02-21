@@ -1,0 +1,4 @@
+---
+paths:
+  - parent: docs
+---
