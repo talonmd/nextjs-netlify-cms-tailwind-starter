@@ -10,7 +10,7 @@ import * as gtag from '../lib/gtag';
 
 import { attributes as global } from '../content/settings/global.md';
 
-import '../styles/globals.css';
+import '../styles/tailwind.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
