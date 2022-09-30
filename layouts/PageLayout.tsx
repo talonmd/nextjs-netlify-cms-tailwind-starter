@@ -1,3 +1,5 @@
+import { ReactNode } from 'react';
+
 import Seo, { Metadata } from './components/Seo';
 import Banner from './components/Banner';
 import Header from './components/Header';
@@ -5,6 +7,7 @@ import Footer from './components/Footer';
 
 interface PageLayoutProps {
   seo: Metadata;
+  children: ReactNode;
 }
 
 const PageLayout: React.FC<PageLayoutProps> = ({ seo, children }) => {
