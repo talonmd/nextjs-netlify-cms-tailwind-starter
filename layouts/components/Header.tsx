@@ -5,8 +5,8 @@ import { Popover, Transition } from '@headlessui/react';
 import { ChartBarIcon, CursorClickIcon, DocumentReportIcon, MenuIcon, RefreshIcon, ShieldCheckIcon, ViewGridIcon, XIcon } from '@heroicons/react/outline';
 import { ChevronDownIcon } from '@heroicons/react/solid';
 
-import { attributes as global } from '../../content/settings/global.md';
-import { attributes as navigation } from '../../content/settings/navigation.md';
+import { attributes as global } from '../../cms/content/settings/global.md';
+import { attributes as navigation } from '../../cms/content/settings/navigation.md';
 
 import classNames from '../../utils/class-names';
 

@@ -8,7 +8,7 @@ import { DefaultSeo } from 'next-seo';
 
 import * as gtag from '../lib/gtag';
 
-import { attributes as global } from '../content/settings/global.md';
+import { attributes as global } from '../cms/content/settings/global.md';
 
 import '../styles/tailwind.css';
 

@@ -1,6 +1,6 @@
 import { NextSeo } from 'next-seo';
 
-import { attributes as global } from '../../content/settings/global.md';
+import { attributes as global } from '../../cms/content/settings/global.md';
 
 export interface Metadata {
   title: string;

@@ -26,7 +26,7 @@ const IndexPage: NextPage<IndexPageProps> = ({ name, metadata, sections }) => {
 };
 
 export async function getStaticProps() {
-  const page = await import('../content/pages/index.md').catch(error => null);
+  const page = await import('../cms/content/pages/index.md').catch(error => null);
 
   if (!page) return { props: {} };
 
